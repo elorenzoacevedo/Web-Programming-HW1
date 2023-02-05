@@ -1,0 +1,171 @@
+body {
+    background-image: url('./Resources/white_bg.jpg');
+    font-family: sans-serif;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px groove white;
+    border-radius: 50%;
+}
+
+h1 {
+    color: silver;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+}
+
+#left_tab {
+    background-color: rgb(175, 175, 175, 0.9);
+    border: 3px groove white;
+    height: 500px;
+    width: 150px;
+    float: left;
+}
+
+#zeke_png {
+    width: 128px;
+    height: 128px;
+}
+
+p {
+    color: white;
+}
+
+#job_div {
+    padding-top: 8px;
+    padding-right: 2px;
+    text-align: left;
+}
+
+li {
+    color: white;
+    font-size: 12px;
+}
+
+#resume {
+    padding-top: 10px;
+}
+
+table {
+    width: 80%;
+    height: 300px;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+tr {
+    text-align: center;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+tr:nth-child(even){
+    background-color: rgb(175, 175, 175, 0.6);
+}
+
+#table_head {
+    height: 20px;
+}
+
+td {
+    height: 10px;
+}
+
+th {
+    width: 33.3%;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+#education_tab {
+    background-color: rgb(175, 175, 175, 0.9);
+    border: 3px groove white;
+    width: 50%;
+    height: 150px;
+    margin-left: 15%;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+
+.zero_margin {
+    margin: 0; 
+}
+
+#quote_div {
+    float: right;
+    margin-right: 0%;
+    margin-top: 2.4%;
+    width: 400px;
+    height: 100px;
+}
+
+#quote {
+    color: darkred;
+    font-size: 32px;
+    font-family: Brush Script MT, sans-serif;
+}
+
+#hobby_container {
+    background-color: rgb(175, 175, 175, 0.9);
+    border: 3px groove white;
+    width: 53%;
+    height: 20em;
+    margin-left: 11.8em;
+    margin-top: 1em;
+}
+
+#hobbies_div {
+    float: left;
+    width: 49.5%;
+}
+
+#hobbies_head {
+    margin-left: 7em;
+}
+
+#artist_head {
+    margin-left: 6em;
+}
+
+.big_font {
+    font-size: 20px;
+}
+
+#artist_div {
+    float: right;
+    width: 50%;
+    height: 100%;
+    border-left: 3px groove white;
+}
+
+#gsucsc {
+    float: right;
+    width: 200px;
+    margin-right: 5em;
+    margin-top: 10em;
+}
